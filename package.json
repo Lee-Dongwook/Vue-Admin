@@ -1,8 +1,7 @@
 {
   "name": "vue-admin",
-  "private": true,
   "type": "module",
-  "version": "1.0.0",
+  "private": true,
   "author": "Lee-DongWook",
   "repository": "https://github.com/Lee-Dongwook/Vue-Admin",
   "scripts": {
