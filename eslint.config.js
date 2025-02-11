@@ -23,6 +23,8 @@ export default antfu(
       "no-debugger": "off",
       "symbol-description": "off",
       "antfu/if-newline": "off",
+      "vue/html-indent": "off",
+      "vue/html-self-closing": "off",
     },
-  }
+  },
 );
