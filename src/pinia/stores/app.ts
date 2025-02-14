@@ -5,7 +5,7 @@ import {
 } from "@/common/constants/app-key";
 import { pinia } from "@/pinia";
 import {
-  getSideBarStatus,
+  getSidebarStatus,
   setSidebarStatus,
 } from "@@/utils/cache/local-storage";
 
@@ -20,7 +20,7 @@ function handleSidebarStatus(opened: boolean) {
 
 export const useAppStore = defineStore("app", () => {
   const sidebar: Sidebar = reactive({
-    opened: getSideBarStatus() !== SIDEBAR_CLOSED,
+    opened: getSidebarStatus() !== SIDEBAR_CLOSED,
     withoutAnimation: false,
   });
 
