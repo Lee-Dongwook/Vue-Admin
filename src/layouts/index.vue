@@ -1,6 +1,9 @@
 <script setup lang="ts">
-import { useSettingStore } from "@/pinia/stores/settings";
+import { useSettingsStore } from "@/pinia/stores/settings";
 import { useDevice } from "@@/composables/useDevice";
+
+const { showSettings } = useSettingsStore();
+const { isMobile } = useDevice();
 </script>
 
 <template>
