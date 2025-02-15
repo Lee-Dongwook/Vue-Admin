@@ -1,4 +1,10 @@
 export { default as AppMain } from "./AppMain/index.vue";
 export { default as Breadcrumb } from "./Breadcrumb/index.vue";
-import { default as Hamburger } from "./Hamburger/index.vue";
 export { default as Footer } from "./Footer/index.vue";
+export { default as Hamburger } from "./Hamburger/index.vue";
+export { default as Logo } from "./Logo/index.vue";
+export { default as NavigatioBar } from "./NavigationBar/index.vue";
+export { default as RightPanel } from "./RightPanel/index.vue";
+export { default as Settings } from "./Settings/index.vue";
+export { default as Sidebar } from "./Sidebar/index.vue";
+export { default as TagsView } from "./TagsView/index.vue";
