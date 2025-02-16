@@ -1,10 +1,7 @@
-<script lang="ts" setup>
-import SvgDashboard from "../images/dashboard.svg?component";
-</script>
+<script lang="ts" setup></script>
 
 <template>
   <div class="app-container center">
-    <SvgDashboard class="svg" />
     <p>Admin</p>
   </div>
 </template>

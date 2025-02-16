@@ -2,7 +2,7 @@
 import { useGreyAndColorWeakness } from "@@/composables/useGreyAndColorWeakness";
 import { usePany } from "@@/composables/usePany";
 import { useTheme } from "@@/composables/useTheme";
-import koKR from "element-plus/es/locale/lang/ko-kr";
+import koKR from "element-plus/es/locale/lang/ko";
 
 const { initTheme } = useTheme();
 const { initGreyAndColorWeakness } = useGreyAndColorWeakness();

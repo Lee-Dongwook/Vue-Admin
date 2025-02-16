@@ -27,7 +27,6 @@ const props = defineProps<Props>();
   width: 120px;
   height: 95px;
   transform: translateY(12%);
-  @include backgroundImage("../images/face.png");
   .hand-down-left,
   .hand-down-right {
     z-index: 2;
@@ -39,12 +38,10 @@ const props = defineProps<Props>();
   .hand-down-left {
     bottom: 3px;
     left: -35px;
-    @include backgroundImage("../images/hand-down-left.png");
   }
   .hand-down-right {
     bottom: 3px;
     right: -40px;
-    @include backgroundImage("../images/hand-down-right.png");
   }
   .hand-up-left,
   .hand-up-right {
@@ -58,12 +55,10 @@ const props = defineProps<Props>();
   .hand-up-left {
     bottom: 11px;
     left: -5px;
-    @include backgroundImage("../images/hand-up-left.png");
   }
   .hand-up-right {
     bottom: 11px;
     right: 5px;
-    @include backgroundImage("../images/hand-up-right.png");
   }
   .close-eyes {
     z-index: 1;
@@ -71,7 +66,6 @@ const props = defineProps<Props>();
     height: 100%;
     opacity: 0;
     transition: opacity 0.1s linear 0.1s;
-    @include backgroundImage("../images/close-eyes.png");
   }
 }
 

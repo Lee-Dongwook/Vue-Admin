@@ -1,7 +1,4 @@
 <script lang="ts" setup>
-import logoText1 from "@@/assets/images/layouts/logo-text-1.png?url";
-import logoText2 from "@@/assets/images/layouts/logo-text-2.png?url";
-import logo from "@@/assets/images/layouts/logo.png?url";
 import { useLayoutMode } from "@/common/composables/useLayoutMode";
 
 interface Props {
@@ -22,10 +19,10 @@ const { isLeft, isTop } = useLayoutMode();
   >
     <transition name="layout-logo-fade">
       <router-link v-if="props.collapse" key="collapse" to="/">
-        <img :src="logo" class="layout-log" />
+        <img class="layout-log" />
       </router-link>
       <router-link v-else key="expand" to="/">
-        <img :src="!isLeft ? logoText2 : logoText1" class="layout-logo-text" />
+        <img class="layout-logo-text" />
       </router-link>
     </transition>
   </div>

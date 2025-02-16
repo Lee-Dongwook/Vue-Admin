@@ -73,9 +73,7 @@ createCode();
     <ThemeSwitch v-if="settingsStore.showThemeSwitch" class="theme-switch" />
     <Owl :close-eyes="isFocus" />
     <div class="login-card">
-      <div class="title">
-        <img src="@@/assets/images/layouts/logo-text-2.png" />
-      </div>
+      <div class="title"></div>
       <div class="content">
         <el-form
           ref="loginFormRef"
