@@ -1,8 +1,8 @@
 import type { RouteRecordRaw } from "vue-router";
 import { routerConfig } from "@/router/config";
-import { registerNavigationGuard } from "./guard";
-import { createRouter } from "vue-router";
 import { flatMultiLevelRoutes } from "@/router/helper";
+import { createRouter } from "vue-router";
+import { registerNavigationGuard } from "./guard";
 
 const Layouts = () => import("@/layouts/index.vue");
 
